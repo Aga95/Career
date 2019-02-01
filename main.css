@@ -1,0 +1,40 @@
+#header{
+    height: 300px;
+    display: flex;
+    background-image: url("Header_Homepage.png")
+}
+
+#nav{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#nav ul{
+    list-style: none;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    width: 100%
+}
+
+#nav ul li{
+    float:left;
+}
+
+#nav ul li a{
+    color: white;
+
+    text-decoration: none;
+    font-size: 30px
+}
+
+#nav ul li a:hover{
+    background-color: #111;
+}
+
+body{
+    background-image: url("Background.jpg");
+}

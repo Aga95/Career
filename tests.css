@@ -1,0 +1,46 @@
+#main{
+    margin-top: 70px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#newsMain{
+    float: left;
+    width: 20%;
+    display: block;
+}
+
+#postMain{
+    float: center;
+    width: 60%;
+    display: block;
+    margin-left: 20px;
+}
+#randomMain{
+    float: right;
+    width: 20%;
+    display: block;
+    margin-left: 20px;
+}
+.post{
+    height: 250px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
+.news{
+    height: 50px;
+    margin-top: 1px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.random{
+    height: 50px;
+    margin-top: 1px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+}
