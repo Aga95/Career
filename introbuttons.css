@@ -1,0 +1,166 @@
+/* Wrapper to contain it all */
+#wrapper{
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Middle */
+#middle{
+    width: 100px;
+    height: 100px;
+    background: #5b91e6;
+    border-radius: 50%;
+    position: absolute;
+    top: 41%;
+    right: 43%;
+    z-index: 99;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* Top */
+#top{
+    border-bottom: 100px solid #5b91e6;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 10%;
+    top: 22%;
+    right: 38.1%;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* Right */
+#right{
+    border-bottom: 100px solid#5b91e6;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-radius: 0px 0px 0px 0px;
+    height: 0;
+    width: 10%;
+    position: absolute;
+    top: 41%;
+    right: 19%;
+    transform: rotate(270deg);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Bottom */
+#bottom{
+    border-bottom: 100px solid #5b91e6;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 10%;
+    position: absolute;
+    top: 60%;
+    right: 38.1%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Left */
+#left{
+    border-bottom: 100px solid #5b91e6;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 10%;
+    position: absolute;
+    top: 41%;
+    right: 57%;
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+#middle:hover{
+    transition: all 0.3s ease-in-out;
+    width: 120px;
+    height: 120px;
+    background: #8fb8f9;
+    top: 39.4%;
+    right: 41.3%;
+}
+
+#top:hover{
+    transition: all 0.3s ease-in-out;
+    border-bottom: 120px solid #8fb8f9;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 14%;
+    top: 17%;
+    right: 34.5%;
+}
+
+#right:hover{
+    transition: all 0.3s ease-in-out;
+    border-bottom: 120px solid #8fb8f9;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 14%;
+    position: absolute;
+    top: 39.5%;
+    right: 11%;
+    transform: rotate(270deg);
+}
+
+#bottom:hover{
+    transition: all 0.3s ease-in-out;
+    border-bottom: 120px solid #8fb8f9;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 14%;
+    top: 62%;
+    right: 34.5%;
+}
+
+#left:hover{
+    transition: all 0.3s ease-in-out;
+    border-bottom: 120px solid #8fb8f9;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 14%;
+    top: 39.5%;
+    right: 57%;
+    transform: rotate(90deg);
+}
+
+
+#middle:hover ~ #top{
+    transition: all 0.3s ease-in-out;
+    top: 20%;
+}
+#middle:hover ~ #right{
+    transition: all 0.3s ease-in-out;
+    right: 16%;
+}
+#middle:hover ~ #bottom{
+    transition: all 0.3s ease-in-out;
+    top: 63%;
+}
+#middle:hover ~ #left{
+    transition: all 0.3s ease-in-out;
+    right: 60%;
+}

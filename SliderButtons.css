@@ -1,0 +1,36 @@
+/* Wrapper to contain it all */
+#wrapper{
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+#mainButton{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 45%;
+    right: 0.1%;
+}
+
+#X{
+    margin: 0;
+    font-size: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#halfCircle{
+    width: 200px;
+    height: 200px; /* as the half of the width */
+    border-radius: 50%;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
